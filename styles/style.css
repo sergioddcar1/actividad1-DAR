@@ -1,0 +1,110 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #525252;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Estilos para enlaces */
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para listas */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el formulario */
+form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="time"],
+input[type="number"]  {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
